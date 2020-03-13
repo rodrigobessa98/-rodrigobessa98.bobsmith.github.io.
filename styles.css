@@ -1,0 +1,17 @@
+
+#mySideBar {
+    display: none;
+    padding-top: 150px;
+}
+
+#mySideBar a {
+    padding: 6px 24px;
+}
+
+#myAvatar {
+    width: 65px;
+}
+
+#myFooter {
+    margin-top: 128px;
+}

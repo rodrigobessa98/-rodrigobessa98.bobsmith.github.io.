@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <title>Example Photolio</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat, sans-seruf"}
+    .w3-sidebar {width: 120px;}
+    #main {margin-left: 120px;}
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+
+<body class="w3-dark-grey">
+
+<!--Sidebar-->
+    <nav class="w3-sidebar w3-bar-block w3-light-grey w3-small w3-hide-small w3-center">
+        <a href="#"><img id="myAvatar" src="avatar/EU.png" 
+            class=" w3-circle w3-center w3-margin w3-hover-opacity"></a>
+        <a href="#EU" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>EU</p>
+        </a>
+        <a href="#projetos" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>PROJETOS</p>
+        </a>
+        <a href="#contato" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTATO</p>
+        </a>
+    </nav>
+
+<!--Siderbar on small screens-->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="#">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#EU" class="w3-bar-item w3-button" style="width:30% !important">EU</a>
+            <a href="#projetos" class="w3-bar-item w3-button" style="width:35% !important">PROJETOS</a>
+            <a href="#contato" class="w3-bar-item w3-button" style="width:35% !important">CONTATO</a>
+        </div>
+    </div>
+
+
+    <!--PageContent-->
+    <div class="w3-padding-large" id="main">
+
+    <!--Header-->
+    <header class="w3-container w3-padding-32 w3-center" id="incio">
+        <h1 class="w3-jumbo">Rodrigo Bessa</h1>
+        <p>Designer Gráfico</p>
+    </header>
+
+    <!--EU-->
+    <div class="w3-content w3-justify w3-padding-64" id="EU">
+        <h2  >Quem Sou eu?</h2>
+        <p>Olá meu nome é Rodrigo Bessa, tenho conhecimento em desenvolvimento web (front end) em HTML, CSS, Javascript e Designer Gráfico na criação de logos e cartões de visitas.</p>
+    </div>
+
+    <!--Navbar-->
+    <nav class="w3-bar w3-light-grey w3-opacity w3-hover-opacity-off w3-center">
+        <a href="#logos" class="w3-bar-item w3-button" style="width:30% !important">LOGOS</a>
+        <a href="#cartoes_de_visitas" class="w3-bar-item w3-button" style="width:35% !important">CARTÕES DE VISITAS</a>
+        <a href="#socialmedia" class="w3-bar-item w3-button" style="width:35% !important">SOCIAL MEDIA</a>
+    </nav>
+
+    <!--Projetos-->
+    <div id="projetos" class="w3-container w3-padding-32 w3-center">
+
+    <!--Logos-->
+    <div id="logos" class="w3-container w3-padding-32 w3-center">
+        <div class=" w3-padding-large w3-wide w3-text-light-grey w3-center">
+            <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Logos</h1>
+            <h5 class="w3-hide-large" style="white-space:nowrap">Logos</h5>
+          </div>
+        <img src="img/bStudios.png" style="padding: 10px;" alt="LanceDoJogo" class="w3-image" width="1000" height="500">
+        <img src="img/CrazyNightStudios.png" style="padding: 10px;" alt="CrazyNightStudios" class="w3-image" width="1000" height="500">
+        <img src="img/croSSShop.png" style="padding: 10px;" alt="CroSSShop" class="w3-image" width="1000" height="500">
+        <img src="img/LanceDoJogo.png" style="padding: 10px;" alt="BeRabbit" class="w3-image" width="1000" height="500">
+        <img src="img/MarKStudios.png" style="padding: 10px;" alt="BessaStudios" class="w3-image" width="1000" height="500">
+        <img src="img/WinterEntertainment.png" style="padding: 10px;" class="w3-image" alt="bStudios" width="1000" height="500">
+    </div>
+
+    <!--Cartões de Visitas-->
+    <div id="#" class="w3-container w3-padding-32 w3-center">
+       
+    </div>
+
+</div>
+
+    <!--Footer-->
+    <div id="contato"> 
+    <footer class="w3-container w3-padding-64 w3-dark-grey  w3-opacity w3-xxlarge"
+    id="myFooter">
+    <h2 >Contate Me</h2>
+    <hr style="width: 200px;" class="w3-light-grey">
+        
+    <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Pará, Brasil</p>
+        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Telefone: (91)9 8091-0738</p>
+        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: r.bessa_rb@hotmail.com</p>
+      </div>
+      
+        <a href="https://www.instagram.com/bessa_rb/?hl=pt-br"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/rodrigo-bessa-b31946190/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+           target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+</div>
+
+<!--End Page Content-->
+</div>
+
+</body>
+</html>
